@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4154AE11DAAD35700272547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4154AE01DAAD35700272547 /* main.m */; };
+		F4154AE41DAAD35700272547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4154AE31DAAD35700272547 /* AppDelegate.m */; };
+		F4154AE71DAAD35700272547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4154AE61DAAD35700272547 /* ViewController.m */; };
+		F4154AEA1DAAD35700272547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4154AE81DAAD35700272547 /* Main.storyboard */; };
+		F4154AEC1DAAD35700272547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4154AEB1DAAD35700272547 /* Assets.xcassets */; };
+		F4154AEF1DAAD35700272547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4154AED1DAAD35700272547 /* LaunchScreen.storyboard */; };
+		F4154AF81DAAD9A900272547 /* StringMetric.c in Sources */ = {isa = PBXBuildFile; fileRef = F4154AF61DAAD9A900272547 /* StringMetric.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4154ADC1DAAD35700272547 /* jaro-winkler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jaro-winkler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4154AE01DAAD35700272547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4154AE21DAAD35700272547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4154AE31DAAD35700272547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4154AE51DAAD35700272547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4154AE61DAAD35700272547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4154AE91DAAD35700272547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4154AEB1DAAD35700272547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4154AEE1DAAD35700272547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4154AF01DAAD35700272547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4154AF61DAAD9A900272547 /* StringMetric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StringMetric.c; sourceTree = "<group>"; };
+		F4154AF71DAAD9A900272547 /* StringMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringMetric.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4154AD91DAAD35700272547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4154AD31DAAD35700272547 = {
+			isa = PBXGroup;
+			children = (
+				F4154ADE1DAAD35700272547 /* jaro-winkler */,
+				F4154ADD1DAAD35700272547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4154ADD1DAAD35700272547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4154ADC1DAAD35700272547 /* jaro-winkler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4154ADE1DAAD35700272547 /* jaro-winkler */ = {
+			isa = PBXGroup;
+			children = (
+				F4154AE21DAAD35700272547 /* AppDelegate.h */,
+				F4154AE31DAAD35700272547 /* AppDelegate.m */,
+				F4154AE51DAAD35700272547 /* ViewController.h */,
+				F4154AE61DAAD35700272547 /* ViewController.m */,
+				F4154AF71DAAD9A900272547 /* StringMetric.h */,
+				F4154AF61DAAD9A900272547 /* StringMetric.c */,
+				F4154AE81DAAD35700272547 /* Main.storyboard */,
+				F4154AEB1DAAD35700272547 /* Assets.xcassets */,
+				F4154AED1DAAD35700272547 /* LaunchScreen.storyboard */,
+				F4154AF01DAAD35700272547 /* Info.plist */,
+				F4154ADF1DAAD35700272547 /* Supporting Files */,
+			);
+			path = "jaro-winkler";
+			sourceTree = "<group>";
+		};
+		F4154ADF1DAAD35700272547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4154AE01DAAD35700272547 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4154ADB1DAAD35700272547 /* jaro-winkler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4154AF31DAAD35700272547 /* Build configuration list for PBXNativeTarget "jaro-winkler" */;
+			buildPhases = (
+				F4154AD81DAAD35700272547 /* Sources */,
+				F4154AD91DAAD35700272547 /* Frameworks */,
+				F4154ADA1DAAD35700272547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jaro-winkler";
+			productName = "jaro-winkler";
+			productReference = F4154ADC1DAAD35700272547 /* jaro-winkler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4154AD41DAAD35700272547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = simonthefox;
+				TargetAttributes = {
+					F4154ADB1DAAD35700272547 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 64A3TJCQ88;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4154AD71DAAD35700272547 /* Build configuration list for PBXProject "jaro-winkler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4154AD31DAAD35700272547;
+			productRefGroup = F4154ADD1DAAD35700272547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4154ADB1DAAD35700272547 /* jaro-winkler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4154ADA1DAAD35700272547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4154AEF1DAAD35700272547 /* LaunchScreen.storyboard in Resources */,
+				F4154AEC1DAAD35700272547 /* Assets.xcassets in Resources */,
+				F4154AEA1DAAD35700272547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4154AD81DAAD35700272547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4154AE71DAAD35700272547 /* ViewController.m in Sources */,
+				F4154AE41DAAD35700272547 /* AppDelegate.m in Sources */,
+				F4154AF81DAAD9A900272547 /* StringMetric.c in Sources */,
+				F4154AE11DAAD35700272547 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4154AE81DAAD35700272547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4154AE91DAAD35700272547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4154AED1DAAD35700272547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4154AEE1DAAD35700272547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4154AF11DAAD35700272547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4154AF21DAAD35700272547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4154AF41DAAD35700272547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64A3TJCQ88;
+				INFOPLIST_FILE = "jaro-winkler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonthefox.jaro-winkler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4154AF51DAAD35700272547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 64A3TJCQ88;
+				INFOPLIST_FILE = "jaro-winkler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonthefox.jaro-winkler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4154AD71DAAD35700272547 /* Build configuration list for PBXProject "jaro-winkler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4154AF11DAAD35700272547 /* Debug */,
+				F4154AF21DAAD35700272547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4154AF31DAAD35700272547 /* Build configuration list for PBXNativeTarget "jaro-winkler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4154AF41DAAD35700272547 /* Debug */,
+				F4154AF51DAAD35700272547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4154AD41DAAD35700272547 /* Project object */;
+}
